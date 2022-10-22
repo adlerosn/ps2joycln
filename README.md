@@ -4,6 +4,15 @@ Use PlayStation 2 input accessories that cheap "PS2 to USB" dongles don't recogn
 
 This relies on a [server](https://github.com/adlerosn/ps2joysrv) to be running in your PS2 console.
 
+## Dependencies (will be installed automatically)
+
+- [keyboard>=0.13.5](https://pypi.org/project/keyboard/)
+
+## Installing
+
+0. Download and install [Python](https://www.python.org/downloads/)
+1. On a terminal/command prompt, enter: `python -m pip install ps2joycln`
+
 ## Running
 
 On Linux: #`python3 -m ps2joycln` (yes, as root (unfortunately))
